@@ -6,7 +6,7 @@ import i18n from '../i18n'
 import { getFingerprint } from '../utils/fingerprint'
 import { safeBearerHeader, safeHeaderValue } from '../utils/headers'
 
-const API_BASE = import.meta.env.VITE_API_BASE || "";
+const API_BASE = "https://cloudflare_temp_email.kityyyk1.workers.dev";
 const {
     loading, auth, jwt, settings, openSettings,
     userOpenSettings, userSettings, announcement,
